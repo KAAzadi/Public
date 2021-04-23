@@ -2,15 +2,15 @@
 
 #### Your name
 
-TODO
+Kian Azadi
 
 #### Your section leader's name
 
-TODO
+self project (section TA is Tamara)
 
 #### Project title
 
-TODO
+Crypto Sentry
 
 ***
 
@@ -18,12 +18,12 @@ Short answers for the below questions suffice. If you want to alter your plan fo
 
 #### What have you done for your project so far?
 
-TODO
+I have succesffully called the API and parsed the .json using Newtonsoft.Json. I have also created a rough window design that includes most future implementations.
 
 #### What have you not done for your project yet?
 
-TODO
+I need to complete the implementation of SMS messaging, as well as set up the program to run autonomously in the background to check the API every 5 seconds.
 
 #### What problems, if any, have you encountered?
 
-TODO
+I have been struggling with making the API call completely asynchronous. While the majority of it can run asynchronously, there is one point that appears to be necessary to run synchronously. In addition, design has been a struggle, as that has never been something I was good at (my initial test window was just a single button in a gigantic window).
