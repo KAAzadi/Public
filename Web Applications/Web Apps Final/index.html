@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<!-- HTML comments must be like this... -->
+<html>
+    <head>
+        <title>My Website</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="style/main.css" rel="stylesheet" type="text/css" />
+        <link href="style/NavRouter.css" rel="stylesheet" type="text/css" />
+        <link href="style/recipe.css" rel="stylesheet" type="text/css" />
+        <link href="style/style1.css" rel="stylesheet" type="text/css" />
+        <link href="style/clickSort.css" rel="stylesheet" type="text/css" />
+
+        <style>
+
+
+        </style>
+    </head>
+    <body>
+        <div id="titleNav">
+            <div id="title">
+                Welcome to my Website!
+            </div>
+            <div id="nav">
+
+            </div>
+        </div>
+        <div id="content">
+
+            <!-- HTML comment: 
+                The content div is empty. It will get content "injected into it"
+                by the NavRouter component.
+            -->
+
+        </div> <!-- end of content area -->
+        <div id="kianError"></div>
+        <div id="footer">
+            Kian Azadi
+        </div>
+
+        <script>
+            // Prevent browser from (globally) auto-declaring
+            // any referenced variable that was never declared.
+            "use strict";
+        </script>
+
+        <!-- Suggest you keep these in the same order as you see them in the NB project pane --> 
+        <script src="js/reusable/account.js"></script>
+        <script src="js/reusable/MakeNavRouter.js"></script>
+        <script src="js/reusable/MakeNavRouter_2.js"></script>
+        <script src="js/reusable/MakeRecipe.js"></script>
+        <script src="js/reusable/MakeClickSortTable.js"></script>
+        <script src="js/reusable/SortableTableUtils.js"></script>
+        <script src="js/reusable/ajax.js"></script>
+        <script src="js/reusable/insertUser.js"></script>
+        <script src="js/reusable/insertRecipe.js"></script>
+        <script src="js/reusable/MakeEditArea.js"></script>
+        <script src="js/reusable/Utils.js"></script>
+
+        <script src="js/content/blogContent.js"></script>
+        <script src="js/content/homeContent.js"></script>
+        <script src="js/content/registerContent.js"></script>
+        <script src="js/content/recipeContent.js"></script>
+        <script src="js/content/userClickSort.js"></script>
+        <script src="js/content/recipeClickSort.js"></script>
+        <script src="js/content/registerContent.js"></script>
+        <script src="js/content/registerRecipe.js"></script>
+        <script src="js/content/updateUserContent.js"></script>
+        <script src="js/content/updateRecipeContent.js"></script>
+
+
+        <script>
+            "use strict";
+
+            // Home | Account | Search | Tutorial | Blog
+
+            var myNavList = [
+
+                // action attribute is a function name - no quotes aroudnd home.
+                {linkText: "Home", linkURL: "#/home", action: homeContent},
+                {
+                   header: "Account",
+                   subMenu: [
+                        {linkText: "Register", linkURL: "#/register", action: registerContent},
+                        {linkText: "Log On", linkURL: "#/logon", action: account.logon},
+                        {linkText: "Log Off", linkURL: "#/logoff", action: account.logoff},
+                        {linkText: "Profile", linkURL: "#/profile", action: account.getProfile}
+                    ]
+
+                },
+                {
+                    header: "Search",
+                    subMenu: [
+                        {linkText: "Make Objects"},
+                        {linkText: "My Objects", linkURL: "#/recipes", action: recipeContent},
+                        {linkText: "Users API", linkURL: "#/usersAPI", action: "webAPIs/listUsersAPI.jsp"},
+                        {linkText: "SavedRecipes API", linkURL: "#/savedRecipesAPI", action: "webAPIs/listOtherAPI.jsp"},
+                        {linkText: "Slide Show"},
+                        {linkText: "Search - ClickSort Users", linkURL:"#/sortUsers",  action: userClickSort},
+                        {linkText: "Search - ClickSort Recipes", linkURL:"#/sortrecipes",  action: recipeClickSort},
+                    ]
+                },
+
+                {
+                    header: "Tutorial",
+                    subMenu: [
+                        {linkText: "Proposal", linkURL: "#/proposal", action: "tutorial/proposal.pdf"},
+                        {linkText: "Proof Of Concept", linkURL: "#/tutPOC", action: "tutorial/poc.html"},
+                        {linkText: "Demo", linkURL: "#/tutDemo", action: "tutorial/download/demo.html"},
+                        {linkText: "Tutorial Home", linkURL: "#/tutHome", action: "tutorial/index.html"}
+                    ]
+                },
+
+                // action attribute is a function name - no quotes around blog.
+                {linkText: "Blog", linkURL: "#/blog", action: blogContent}
+            ];
+
+            var myNav = MakeNavRouter_2({
+                navId: "nav", // this is where the nav bar will be injected
+                navList: myNavList, // the list of link objects (linkText, linkURL, actions)
+                contentId: "content", // the id where content is to be injected
+                startLink: "#/home"     // routing will set this as the first link. 
+            });
+            
+            myNav.addRoute(
+                {
+                    linkURL: "#/insertRecipe",
+                    action: registerRecipe
+                }
+            );
+            myNav.addRoute(
+                {
+                    linkURL: "#/userUpdate",
+                    action: updateUserContent.update
+                }
+            );
+            myNav.addRoute(
+                {
+                    linkURL: "#/recipeUpdate",
+                    action: updateRecipeContent.update
+                }
+            );
+
+        </script>
+    </body>
+</html>

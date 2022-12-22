@@ -1,0 +1,26 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 14, 2022, 5:03:24 PM
+    Author     : kiana
+*/
+.rec {
+    background-color: cornflowerblue;
+    border-radius: 0.25rem;
+    font-family: "MV Boli";
+    padding: 0.25rem;
+    margin: 1rem;
+}
+
+.rec button{
+    background-color: lightgray;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.rec img{
+    max-height: 100px;
+    max-width: auto;
+}

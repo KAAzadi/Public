@@ -1,0 +1,47 @@
+[
+	{
+		"web_user_id" : 1,
+		"user_email" : "tuf48228@temple.edu",
+		"user_password" : "bananas",
+		"image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeLJnzgcw-0NEcuH0joPa1I_-MCWg-yJ_v1FrDzT8&s",
+		"membership_fee" : 12.00,
+		"birthday" : "0000-00-00",
+		"user_role_id" : 1
+	},
+	{
+		"web_user_id" : 2,
+		"user_email" : "totally@real.com",
+		"user_password" : "pineapples",
+		"image" : null,
+		"membership_fee" : null,
+		"birthday" : null,
+		"user_role_id" : 2
+	},
+	{
+		"web_user_id" : 3,
+		"user_email" : ";l;askjd@kdj.net",
+		"user_password" : "peaches",
+		"image" : null,
+		"membership_fee" : null,
+		"birthday" : null,
+		"user_role_id" : 3
+	},
+	{
+		"web_user_id" : 4,
+		"user_email" : "123@45.6",
+		"user_password" : "apples",
+		"image" : null,
+		"membership_fee" : null,
+		"birthday" : null,
+		"user_role_id" : 2
+	},
+	{
+		"web_user_id" : 5,
+		"user_email" : "IAmA@donut.com",
+		"user_password" : "pears",
+		"image" : null,
+		"membership_fee" : null,
+		"birthday" : null,
+		"user_role_id" : 2
+	}
+]

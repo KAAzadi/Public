@@ -1,0 +1,112 @@
+[
+	{
+		"recipe_id" : 1,
+		"recipe_name" : "salmon bacon",
+		"recipe_image" : "https://www.babaganosh.org/wp-content/uploads/2022/03/salmon-skin-bacon-13-735x1103.jpg.webp",
+		"recipe_notes" : "pretty good, easy to make",
+		"recipe_url" : "https://www.babaganosh.org/crispy-salmon-skin-bacon/",
+		"recipe_rating_stars" : 4,
+		"recipe_times_used" : 1,
+		"recipe_keywords" : "salmon, bacon",
+		"web_user_id" : 1
+	},
+	{
+		"recipe_id" : 2,
+		"recipe_name" : "Hollondaise",
+		"recipe_image" : null,
+		"recipe_notes" : null,
+		"recipe_url" : "https://www.foodnetwork.com/recipes/tyler-florence/hollandaise-sauce-recipe-1910043",
+		"recipe_rating_stars" : null,
+		"recipe_times_used" : null,
+		"recipe_keywords" : null,
+		"web_user_id" : 1
+	},
+	{
+		"recipe_id" : 3,
+		"recipe_name" : "Pancakes",
+		"recipe_image" : null,
+		"recipe_notes" : "Fluffies recipe to date",
+		"recipe_url" : "https://cooking.nytimes.com/recipes/1893-everyday-pancakes",
+		"recipe_rating_stars" : 4,
+		"recipe_times_used" : 5,
+		"recipe_keywords" : "breakfast, fluffy",
+		"web_user_id" : 2
+	},
+	{
+		"recipe_id" : 4,
+		"recipe_name" : "French Onion Soup",
+		"recipe_image" : null,
+		"recipe_notes" : "Very long cook time",
+		"recipe_url" : "https://cooking.nytimes.com/recipes/1017256-french-onion-soup",
+		"recipe_rating_stars" : 5,
+		"recipe_times_used" : 3,
+		"recipe_keywords" : "comfort, soup, hearty",
+		"web_user_id" : 2
+	},
+	{
+		"recipe_id" : 5,
+		"recipe_name" : "Squash Salad w/ Citronette",
+		"recipe_image" : "https://cookieandkate.com/images/2013/07/summer-squash-salad.jpg",
+		"recipe_notes" : "best squash i've ever had",
+		"recipe_url" : "https://cookieandkate.com/summer-squash-salad-with-lemon-citronette/",
+		"recipe_rating_stars" : 5,
+		"recipe_times_used" : 2,
+		"recipe_keywords" : "appetizer, salad, squash",
+		"web_user_id" : 1
+	},
+	{
+		"recipe_id" : 6,
+		"recipe_name" : "Sauce Tomat",
+		"recipe_image" : null,
+		"recipe_notes" : "One of the 5 mother sauces",
+		"recipe_url" : "https://www.escoffieronline.com/sauce-tomat-101/",
+		"recipe_rating_stars" : 4,
+		"recipe_times_used" : 2,
+		"recipe_keywords" : "sauce, pork, tomato",
+		"web_user_id" : 1
+	},
+	{
+		"recipe_id" : 7,
+		"recipe_name" : "spaghetti Aglio e Olio",
+		"recipe_image" : null,
+		"recipe_notes" : "start is surprisingly delicious",
+		"recipe_url" : "https://www.allrecipes.com/recipe/222000/spaghetti-aglio-e-olio/",
+		"recipe_rating_stars" : 5,
+		"recipe_times_used" : 2,
+		"recipe_keywords" : "pasta, filling, comfort",
+		"web_user_id" : 3
+	},
+	{
+		"recipe_id" : 8,
+		"recipe_name" : "Lemon Meringue Pie",
+		"recipe_image" : null,
+		"recipe_notes" : null,
+		"recipe_url" : "https://www.allrecipes.com/recipe/15093/grandmas-lemon-meringue-pie/",
+		"recipe_rating_stars" : null,
+		"recipe_times_used" : null,
+		"recipe_keywords" : null,
+		"web_user_id" : 4
+	},
+	{
+		"recipe_id" : 9,
+		"recipe_name" : "Creme brulee",
+		"recipe_image" : null,
+		"recipe_notes" : "long, but worth it",
+		"recipe_url" : "https://cooking.nytimes.com/recipes/9039-vanilla-creme-brulee",
+		"recipe_rating_stars" : 5,
+		"recipe_times_used" : null,
+		"recipe_keywords" : null,
+		"web_user_id" : 5
+	},
+	{
+		"recipe_id" : 10,
+		"recipe_name" : "pizza dough",
+		"recipe_image" : null,
+		"recipe_notes" : null,
+		"recipe_url" : "https://sugarspunrun.com/the-best-pizza-dough-recipe/",
+		"recipe_rating_stars" : null,
+		"recipe_times_used" : 10,
+		"recipe_keywords" : null,
+		"web_user_id" : 1
+	}
+]
