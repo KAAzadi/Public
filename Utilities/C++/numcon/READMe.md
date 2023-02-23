@@ -7,10 +7,10 @@ The utility tool numcon is inspired by the Sysinternals utility Hex2Dec, however
 -h - indicates the following value is a hexadecimal value<br/>
 -o - indicates the following value is an octal value<br/>
 
-<h2>Examples</h2><br/>
-<h4>Binary to decimal</h4><br/>
->numcon -b 1001 -d<br/>
-<h4>Decimal to hexadecimal</h4><br/>
->numcon -d 12345 -h<br/>
-<h4>Decimal to all</h4><br/>
->numcon -b 1001 -a<br/>
+<h2>Examples</h2>
+<h4>Binary to decimal</h4>
+>numcon -b 1001 -d
+<h4>Decimal to hexadecimal</h4>
+>numcon -d 12345 -h
+<h4>Decimal to all</h4>
+>numcon -b 1001 -a
