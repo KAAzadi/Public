@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="mazeNotation.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:mazeNotation"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="mainGrid" Margin="10,10,0,0">
+        <TextBox x:Name="numRows" HorizontalAlignment="Left" Margin="193,93,0,0" TextWrapping="Wrap" Text="2" VerticalAlignment="Top" TextChanged="TextBox_TextChanged" InputScope="Digits"/>
+        <TextBox x:Name="numCols" HorizontalAlignment="Left" Margin="193,148,0,0" TextWrapping="Wrap" Text="2" VerticalAlignment="Top" TextChanged="TextBox_TextChanged" InputScope="Digits"/>
+        <Button x:Name="GenerateButton" Content="Create" Margin="305,115,0,0" VerticalAlignment="Top" Click="GenerateButton_Click"/>
+        <TextBlock x:Name="RowLabel" HorizontalAlignment="Left" Margin="84,100,0,0" TextWrapping="Wrap" Text="Number of Rows" VerticalAlignment="Top"/>
+        <TextBlock x:Name="ColumnLable" HorizontalAlignment="Left" Margin="67,155,0,0" TextWrapping="Wrap" Text="Number of Columns" VerticalAlignment="Top"/>
+
+        <Border Grid.Row="0" BorderBrush="Gray" VerticalAlignment="Bottom"/>
+
+        <Border Grid.Row="1" BorderBrush="Gray" VerticalAlignment="Bottom"/>
+        <Border x:Name="gridBorder" BorderBrush="Black" BorderThickness="1" Margin="5,185,631,0"/>
+        <Button Content="Generate" Margin="1160,115,0,0" VerticalAlignment="Top" Click="CreateText_Click"/>
+        <TextBox x:Name="outputText" HorizontalAlignment="Left" Margin="907,185,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="798" Width="583"/>
+    </Grid>
+    
+</Page>
