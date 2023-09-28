@@ -48,8 +48,8 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Border">
       <RootProperty Name="BorderBrush" />
       <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="BorderThickness" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="BorderThickness" />
     </RootType>
     <RootType FullName="mazeNotation.MainPage" />
   </Roots.RootTypes>

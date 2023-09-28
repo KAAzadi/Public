@@ -53,8 +53,10 @@ namespace mazeNotation
         {
         }
 
+        //create separate file to abstract this, include proper parameters
         private void PopulatePage()
         {
+            //grid needs to be in uwp and we change it as we go
             Grid grid = new Grid();
             int cols = Int32.Parse(numCols.Text) * 2 + 1;
             int rows = Int32.Parse(numRows.Text) * 2 + 1;

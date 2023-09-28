@@ -6,20 +6,31 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" d:DesignHeight="1169.811" d:DesignWidth="1528.302">
+    <!-- 5 pixel border around everything
+    buttons needs to be at bottom right of thing they control, right aligned with 10 pixels between two buttons
+    additional buttons needed
+        - save text
+    text should be left aligned
+    flex should be working for everything (right side doesn't work)
+    title for app
+    small help icon and text about what to do
+    colons at end of label
+    input boxes smaller, text centered
+    min is 2, max is 15(?)
+    will need to be able to load and save models-->
     <Grid x:Name="mainGrid" Margin="10,10,0,0">
-        <TextBox x:Name="numRows" HorizontalAlignment="Left" Margin="193,93,0,0" TextWrapping="Wrap" Text="2" VerticalAlignment="Top" TextChanged="TextBox_TextChanged" InputScope="Digits"/>
+        <TextBox x:Name="numRows" HorizontalAlignment="Left" Margin="451,142,0,0" TextWrapping="Wrap" Text="2" VerticalAlignment="Top" TextChanged="TextBox_TextChanged" InputScope="Digits"/>
         <TextBox x:Name="numCols" HorizontalAlignment="Left" Margin="193,148,0,0" TextWrapping="Wrap" Text="2" VerticalAlignment="Top" TextChanged="TextBox_TextChanged" InputScope="Digits"/>
-        <Button x:Name="GenerateButton" Content="Create" Margin="305,115,0,0" VerticalAlignment="Top" Click="GenerateButton_Click"/>
-        <TextBlock x:Name="RowLabel" HorizontalAlignment="Left" Margin="84,100,0,0" TextWrapping="Wrap" Text="Number of Rows" VerticalAlignment="Top"/>
+        <Button x:Name="GenerateButton" Content="Create" Margin="759,137,0,0" VerticalAlignment="Top" Click="GenerateButton_Click"/>
+        <TextBlock x:Name="RowLabel" HorizontalAlignment="Left" Margin="343,149,0,0" TextWrapping="Wrap" Text="Number of Rows" VerticalAlignment="Top"/>
         <TextBlock x:Name="ColumnLable" HorizontalAlignment="Left" Margin="67,155,0,0" TextWrapping="Wrap" Text="Number of Columns" VerticalAlignment="Top"/>
 
-        <Border Grid.Row="0" BorderBrush="Gray" VerticalAlignment="Bottom"/>
+        <Border Grid.Row="0" BorderBrush="Gray" VerticalAlignment="Bottom" Margin="5,5,5,5"/>
 
         <Border Grid.Row="1" BorderBrush="Gray" VerticalAlignment="Bottom"/>
-        <Border x:Name="gridBorder" BorderBrush="Black" BorderThickness="1" Margin="5,185,631,0"/>
-        <Button Content="Generate" Margin="1160,115,0,0" VerticalAlignment="Top" Click="CreateText_Click"/>
+        <Border x:Name="gridBorder" BorderBrush="Black" BorderThickness="1" Margin="5,185,631,177"/>
+        <Button Content="Generate" Margin="988,134,0,0" VerticalAlignment="Top" Click="CreateText_Click"/>
         <TextBox x:Name="outputText" HorizontalAlignment="Left" Margin="907,185,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="798" Width="583"/>
     </Grid>
     

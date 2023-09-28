@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Source\\Public\\Utilities\\C++\\numcon\\mazeNotation\\mazeNotation\\mazeNotation.csproj": {}
+    "C:\\Users\\kiana\\Documents\\GitHub\\Public\\Utilities\\C#\\mazeNotation\\mazeNotation\\mazeNotation.csproj": {}
   },
   "projects": {
-    "C:\\Source\\Public\\Utilities\\C++\\numcon\\mazeNotation\\mazeNotation\\mazeNotation.csproj": {
+    "C:\\Users\\kiana\\Documents\\GitHub\\Public\\Utilities\\C#\\mazeNotation\\mazeNotation\\mazeNotation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Source\\Public\\Utilities\\C++\\numcon\\mazeNotation\\mazeNotation\\mazeNotation.csproj",
+        "projectUniqueName": "C:\\Users\\kiana\\Documents\\GitHub\\Public\\Utilities\\C#\\mazeNotation\\mazeNotation\\mazeNotation.csproj",
         "projectName": "mazeNotation",
-        "projectPath": "C:\\Source\\Public\\Utilities\\C++\\numcon\\mazeNotation\\mazeNotation\\mazeNotation.csproj",
+        "projectPath": "C:\\Users\\kiana\\Documents\\GitHub\\Public\\Utilities\\C#\\mazeNotation\\mazeNotation\\mazeNotation.csproj",
         "packagesPath": "C:\\Users\\kiana\\.nuget\\packages\\",
-        "outputPath": "C:\\Source\\Public\\Utilities\\C++\\numcon\\mazeNotation\\mazeNotation\\obj\\",
+        "outputPath": "C:\\Users\\kiana\\Documents\\GitHub\\Public\\Utilities\\C#\\mazeNotation\\mazeNotation\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
